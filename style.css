@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #edf1f5;
+    font-family: Arial;
+}
+
+.calculator {
+    width: 260px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.buttons button {
+    width: 60px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+button.zero {
+    width: 128px;
+}
